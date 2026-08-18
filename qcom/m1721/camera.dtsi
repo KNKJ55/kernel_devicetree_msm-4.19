@@ -1,3 +1,13 @@
+&vfe0 {
+	max-clk-nominal = <540000000>;
+	max-clk-turbo = <540000000>;
+};
+
+&vfe1 {
+	max-clk-nominal = <540000000>;
+	max-clk-turbo = <540000000>;
+};
+
 &cci {
 	eeprom0: qcom,eeprom@0 {
         cell-index = <0>;
